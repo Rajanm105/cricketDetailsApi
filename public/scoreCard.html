@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Cricket Media</title>
+</head>
+
+<body>
+    <h1 class="text-uppercase">This is the scorecard page</h1>
+    <nav class="nav nav-tabs">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Series Details</a></li>
+        <li class="nav-item"><a class="nav-link" href="scoreCard.html ">Scorecard</a></li>
+        <li class="nav-item"><a class="nav-link" href="Teams_Profile.html ">Teams_Profile</a></li>
+    </nav>
+    <h4 class="">Teams: <span id="title"></span></h4>
+    <p class="">Status: <span id="status"></span></p>
+    <p class="">Toss: <span id="toss"></span></p>
+    <p>Batter: <span id="battingfirstTeam"></span></p>
+    <table class="table">
+        <tr>
+            <th>Batter Name</th>
+            <th>Runs</th>
+            <th>Balls</th>
+        </tr>
+        <tbody id="myTable">
+
+        </tbody>
+    </table>
+    <p>Bowler: <span id="bowlingsecondTeam"></span></p>
+    <table class="table">
+        <tr>
+            <th>Bowler Name</th>
+            <th>Overs</th>
+            <th>Dot Balls</th>
+            <th>Wickets</th>
+            <th>Runs Conceded</th>
+        </tr>
+        <tbody id="newTable">
+
+        </tbody>
+    </table>
+    <p>Batter: <span id="newbattingfirstTeam"></span></p>
+    <table class="table">
+        <tr>
+            <th>Batter Name</th>
+            <th>Runs</th>
+            <th>Balls</th>
+        </tr>
+        <tbody id="battingTable">
+
+        </tbody>
+    </table>
+    <p>Bowler: <span id="newbowlingsecondTeam"></span></p>
+    <table class="table">
+        <tr>
+            <th>Bowler Name</th>
+            <th>Overs</th>
+            <th>Dot Balls</th>
+            <th>Wickets</th>
+            <th>Runs Conceded</th>
+        </tr>
+        <tbody id="bowlingTable">
+
+        </tbody>
+    </table>
+    <script src="js/scoreCard.js"></script>
+</body>
+
+</html>
