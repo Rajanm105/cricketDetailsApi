@@ -3,7 +3,7 @@ async function getFixtures(){
         "method": "GET",
         "headers": {
             "x-rapidapi-host": "cricket-live-data.p.rapidapi.com",
-            "x-rapidapi-key": "XXX"
+            "x-rapidapi-key": "c1be5ed55dmshb5582f32c6d5b54p121d90jsnb2c34e7c9835"
         }
     })
     .then(response => response.json())
